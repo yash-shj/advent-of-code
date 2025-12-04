@@ -29,7 +29,7 @@ int main(int argc, char* argv[]) {
     int part = 1;
     if (argc >= 2) part = stoi(argv[1]);
 
-    Input data = parse_input(cin);
+    const Input data = parse_input(cin);
 
     if (part == 1) {
         cout << solve_part1(data) << '\n';
