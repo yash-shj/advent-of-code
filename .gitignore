@@ -1,13 +1,13 @@
+# Ignore VS Code settings
+.vscode/
+
 # Ignore build outputs
 build/
 *.exe
 
-# Ignore VS Code settings
-.vscode/
-
-# Ignore real AoC input
+# Ignore private inputs
 **/input/input.txt
 
-# Ignore real AoC outputs
+# Ignore outputs from private inputs
 **/output/input.part1.txt
 **/output/input.part2.txt
